@@ -16,7 +16,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='f3f_django_saml2_auth',
 
-    version='2.2.1.3',
+    version='2.2.1.4',
 
     description='Django SAML2 Authentication Made Easy. Easily integrate with SAML2 SSO identity providers like Okta',
     long_description=long_description,
@@ -61,7 +61,6 @@ setup(
     packages=find_packages(),
 
     install_requires=['pysaml2>=4.5.0',
-                      'djangorestframework-jwt',
                       'djangorestframework-simplejwt',
                       'django-rest-auth', ],
     include_package_data=True,
